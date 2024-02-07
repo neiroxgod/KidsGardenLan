@@ -1,9 +1,9 @@
 <script lang="ts" setup>
-    import navLinkComponent from '../ui/nav-links/nav-link.vue';
+    import navLinkComponent from '../layout/nav-link.vue';
 </script>
 
 <template>
-    <section class="shadow-sm bg-amber-200 text-slate-950 lg flex items-center justify-between h-12">
+    <section class="shadow-sm bg-amber-100 text-slate-950 lg flex items-center justify-between h-12">
         <div>
             <div class="ml-2">Kid's Garden</div>
         </div>
