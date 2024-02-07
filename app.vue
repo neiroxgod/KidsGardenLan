@@ -2,5 +2,8 @@
   <div>
     <LayoutNavbar/>
     <LayoutMainSection/>
+    <LayoutAboutSection/>
+    <LayoutMethodologySection/>
+    <LayoutPhotographicSection/>
   </div>
 </template>

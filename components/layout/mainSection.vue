@@ -1,9 +1,9 @@
 <script lang="ts" setup>
- 
+
 </script>
 
 <template>
-    <section class="min-h-screen bg-white  pt-32">
+    <section class="min-h-[60vh] bg-white  pt-32">
         <div class="container lg mx-auto bg-white p-10 flex">
             <div class="content">
                 <div>
@@ -24,7 +24,6 @@
                 <NuxtImg src="images/4.png" quality="30"/>
             </div>
         </div>
-        <div class="w-full h-2 bg-orange-300"></div>
     </section>
 </template>
 
