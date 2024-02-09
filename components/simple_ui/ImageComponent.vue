@@ -10,8 +10,8 @@
 
 <template>
     <div>
-        <nuxtImg v-if="imageRounded" class="duration-300 rounded hover:scale-125 hover:shadow-md" :style="'width:'+imageSize+'px; height:'+Size+'px;'" :src="'images/'+imageName+'.'+imageType" :quality="imageQuality"/>
-        <nuxtImg v-else class="duration-300 hover:scale-125 hover:shadow-md" :style="'width:'+Size+'px; height:'+Size+'px;'" :src="'images/'+imageName+'.'+imageType" :quality="imageQuality"/>
+        <nuxtImg v-if="imageRounded" class="duration-300 rounded hover:scale-125 hover:shadow-md" :style="'width:'+imageSize+'px; height:'+imageSize+'px;'" :src="'images/'+imageName+'.'+imageType" :imageQuality="imageQuality"/>
+        <nuxtImg v-else class="duration-300 hover:scale-125 hover:shadow-md" :style="'width:'+imageSize+'px; height:'+imageSize+'px;'" :src="'images/'+imageName+'.'+imageType" :imageQuality="imageQuality"/>
     </div>
 </template>
 

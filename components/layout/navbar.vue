@@ -8,9 +8,9 @@
             <div style="font-family: 'Pacifico', sans-serif;" class="ml-2 text-lg text-orange-300">Kids Garden</div>
         </div>
         <div class="flex md justify-evenly">
-            <navLinkComponent :title="'Главная'"/>
+            <navLinkComponent :alias="'/'" :title="'Главная'"/>
             <navLinkComponent :title="'Методология'"/>
-            <navLinkComponent :title="'Запись'"/>
+            <navLinkComponent :alias="'/apointment'" :title="'Запись'"/>
             <navLinkComponent :title="'Отзывы'"/>
             <navLinkComponent :title="'Ещё'"/>
         </div>

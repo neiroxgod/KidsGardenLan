@@ -1,12 +1,15 @@
 <script lang="ts" setup>
     const props = defineProps({
-        title: {type: String, required: true}
+        title: {type: String, required: true},
+        alias: {type: String, required: false}
     })
 </script>
 
 <template>
     <div class="text-sm font-sans mr-5 cursor-pointer">
-        {{props.title}}
+        <NuxtLink :to="alias">
+            {{props.title}}
+        </NuxtLink>
     </div>
 </template>
 

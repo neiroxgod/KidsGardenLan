@@ -1,9 +1,6 @@
 <template>
-  <div>
-    <LayoutNavbar/>
-    <LayoutMainSection/>
-    <LayoutAboutSection/>
-    <LayoutMethodologySection/>
-    <LayoutPhotographicSection/>
+  <LayoutNavbar/>
+  <div class="router">
+    <NuxtPage />
   </div>
 </template>

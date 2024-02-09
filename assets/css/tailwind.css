@@ -73,6 +73,7 @@
     @apply border-border;
   }
   body {
+    transition: .3;
     font-family: 'Arsenal', sans-serif;
     @apply bg-background text-foreground;
   }

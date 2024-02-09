@@ -1,18 +1,22 @@
-
 <script lang="ts" setup>
-    const props = defineProps<{
-        iconColor?: String;
-        iconSize?: String;
-        icon?: String;
-        title: String;
-        text?: String;
-    }>();
+    const props = defineProps({
+        iconColor:{type: String},
+        iconSize: {type: String},
+        icon: {type: String, required: true},
+        subtitleSize: {type: String},
+        titleSize: {type: String},
+        title: {type: String},
+        text: {type: String},
+    })
 </script>
 
 <template>
     <div class="mb-6">
-        <p class="mb-1 text-lg"><Icon :color="props.iconColor" :name="props.icon" :size="props.iconSize"/> <span class="ml-2">{{ props.title }}</span></p>
-        <p class="ml-8 text-base">{{ props.text }}</p>
+        <p :class="'mb-1 '+titleSize">
+            <Icon v-if="icon" :color="props.iconColor" :name="props.icon" :size="props.iconSize"/>
+            <span>{{ props.title }}</span>
+        </p>
+        <p :class="' '+subtitleSize">{{ props.text }}</p>
     </div>
 </template>
 
