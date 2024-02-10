@@ -2,7 +2,7 @@
     const route = useRoute();
 </script>
 
-<template> 
+<template>
     <LayoutMainSection/>
     <LayoutAboutSection/>
     <LayoutMethodologySection/>

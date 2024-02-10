@@ -77,4 +77,7 @@
     font-family: 'Arsenal', sans-serif;
     @apply bg-background text-foreground;
   }
+  h1 {
+    font-family: 'Noto Sans Japanese', sans-serif;
+  }
 }

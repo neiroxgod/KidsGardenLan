@@ -9,9 +9,9 @@
         </div>
         <div class="flex md justify-evenly">
             <navLinkComponent :alias="'/'" :title="'Главная'"/>
-            <navLinkComponent :title="'Методология'"/>
-            <navLinkComponent :alias="'/apointment'" :title="'Запись'"/>
-            <navLinkComponent :title="'Отзывы'"/>
+            <navLinkComponent :alias="'/methodology'" :title="'Методология'"/>
+            <navLinkComponent :alias="'/appointment'" :title="'Запись'"/>
+            <navLinkComponent :alias="'/reviews'" :title="'Отзывы'"/>
             <navLinkComponent :title="'Ещё'"/>
         </div>
         <div> 
