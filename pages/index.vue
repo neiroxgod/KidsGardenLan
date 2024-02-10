@@ -1,12 +1,12 @@
-<script lang="ts" setup> 
+<script lang="ts" setup>
     const route = useRoute();
 </script>
 
 <template>
-    <LayoutMainSection/>
-    <LayoutAboutSection/>
-    <LayoutMethodologySection/>
-    <LayoutPhotographicSection/>
+    <LayoutLayoutMainSection/>
+    <LayoutLayoutMainAboutSection/>
+    <LayoutLayoutMainMethodologySection/>
+    <LayoutLayoutMainPhotographicSection/>
 </template>
 
 <style scoped> 

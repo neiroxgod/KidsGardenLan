@@ -18,5 +18,18 @@ export default defineNuxtConfig({
      * @default "./components/ui"
      */
     componentDir: './components/ui'
+  },
+  experimental: {
+    defaults: {
+      nuxtLink: {
+        // default values
+        componentName: 'NuxtLink',
+        externalRelAttribute: 'noopener noreferrer',
+        activeClass: 'router-link-active text-orange-600 underline',
+        exactActiveClass: 'router-link-exact-active',
+        prefetchedClass: undefined, // can be any valid string class name
+        trailingSlash: undefined // can be 'append' or 'remove'
+      }
+    }
   }
 })

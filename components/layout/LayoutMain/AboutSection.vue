@@ -1,6 +1,5 @@
 <script lang="ts" setup>
-import Paragraph from '../simple_ui/paragraph.vue';
-import ScheduleCard from '../simple_ui/ScheduleCard.vue';
+import ScheduleCard from '../../simple_ui/ScheduleCard.vue';
 </script>
 
 <template>

@@ -1,7 +1,6 @@
 <script lang="ts" setup> 
-    import ImageComponent from '../simple_ui/ImageComponent.vue';
-    import memphisIconsComponent from '../simple_ui/memphisIconsComponent.vue';
-    import paragraph from '../simple_ui/paragraph.vue';
+    import memphisIconsComponent from '../../simple_ui/memphisIconsComponent.vue';
+    import paragraph from '../../simple_ui/paragraph.vue';
 </script>
 <template>
     <section class="min-h-[50vh] w-full h-1 bg-white"> 

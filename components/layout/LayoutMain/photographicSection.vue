@@ -1,5 +1,4 @@
 <script lang="ts" setup>
-    import ImageComponent from '../simple_ui/ImageComponent.vue';
 </script>
 
 <template>

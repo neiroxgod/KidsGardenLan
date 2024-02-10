@@ -72,12 +72,18 @@
   * {
     @apply border-border;
   }
+  
   body {
     transition: .3;
     font-family: 'Arsenal', sans-serif;
     @apply bg-background text-foreground;
   }
+
   h1 {
     font-family: 'Noto Sans Japanese', sans-serif;
+  }
+
+  .router-link-active {
+    color: rgb(251 146 60 / 1) !important;
   }
 }

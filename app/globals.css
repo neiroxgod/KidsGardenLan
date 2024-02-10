@@ -73,4 +73,8 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  .router-link-active {
+    color: rgb(251 146 60 / 1) !important;
+  }  
 }
