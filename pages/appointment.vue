@@ -11,7 +11,7 @@
 
 <template>
   <page-header :title="'Запись на пробное занятие'" :subtitle="'Здесь вы можете записаться на пробное занятие.'"/>
-  <LayoutAboutSection class="bg-white"/>
+  <LayoutMainAboutSection class="bg-white"/>
 </template>
 
 <style scoped> 

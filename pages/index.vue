@@ -7,10 +7,10 @@
 </script>
 
 <template>
-    <LayoutLayoutMainSection/>
-    <LayoutLayoutMainAboutSection/>
-    <LayoutLayoutMainMethodologySection/>
-    <LayoutLayoutMainPhotographicSection/>
+    <LayoutMainSection/>
+    <LayoutMainAboutSection/>
+    <LayoutMainMethodologySection/>
+    <LayoutMainPhotographicSection/>
 </template>
 
 <style scoped> 
