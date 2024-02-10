@@ -2,7 +2,7 @@
     const props = defineProps({
         iconColor:{type: String},
         iconSize: {type: String},
-        icon: {type: String, required: true},
+        icon: {type: String, default: ''},
         subtitleSize: {type: String},
         titleSize: {type: String},
         title: {type: String},
