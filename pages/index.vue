@@ -2,8 +2,6 @@
   useHead({
     title: "Kid's Garden"
   })
-
-  const route = useRoute();
 </script>
 
 <template>
