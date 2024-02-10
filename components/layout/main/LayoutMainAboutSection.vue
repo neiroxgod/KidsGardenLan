@@ -12,28 +12,22 @@ import ScheduleCard from '../../simple_ui/ScheduleCard.vue';
                             свое время</h2>
                         <div class="mt-10 flex items-center align-center justify-center flex-wrap">
                             <ScheduleCard 
-                                :aging="{age: '3-6', capital: 'Возраст'}"
                                 :caption="'Группа неполного дня'"
                                 :description="'Уютное пространство, где дети проводят время, занимаясь интеллектуальными и творческими заданиями под руководством опытных педагогов.'"
-                                :scheduleDay="{first: '08:30-09:30', second: '09:30-10:30'}"
-                                :scheduleAfternoon="{first: '13:30-14:30', second: '14:30-15:30'}"
-                                :scheduleDescription="{firstTitle: 'Свободное изучение среды', secondTitle: 'Дидактический круг со специалистом'}" 
+                                :imageFile="'learning_11646903'"
+                                :imageType="'png'"
                             />
                             <ScheduleCard 
-                                :aging="{age: '3-6', capital: 'Возраст'}"
                                 :caption="'Группа неполного дня'"
                                 :description="'Уютное пространство, где дети проводят время, занимаясь интеллектуальными и творческими заданиями под руководством опытных педагогов.'"
-                                :scheduleDay="{first: '08:30-09:30', second: '09:30-10:30'}"
-                                :scheduleAfternoon="{first: '13:30-14:30', second: '14:30-15:30'}"
-                                :scheduleDescription="{firstTitle: 'Свободное изучение среды', secondTitle: 'Дидактический круг со специалистом'}" 
+                                :imageFile="'homework_11647164'"
+                                :imageType="'png'"
                             />
                             <ScheduleCard 
-                                :aging="{age: '3-6', capital: 'Возраст'}"
                                 :caption="'Группа неполного дня'"
                                 :description="'Уютное пространство, где дети проводят время, занимаясь интеллектуальными и творческими заданиями под руководством опытных педагогов.'"
-                                :scheduleDay="{first: '08:30-09:30', second: '09:30-10:30'}"
-                                :scheduleAfternoon="{first: '13:30-14:30', second: '14:30-15:30'}"
-                                :scheduleDescription="{firstTitle: 'Свободное изучение среды', secondTitle: 'Дидактический круг со специалистом'}" 
+                                :imageFile="'role-model_11646967'"
+                                :imageType="'png'"
                             />
                         </div>
                     </div>

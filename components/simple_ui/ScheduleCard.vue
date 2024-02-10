@@ -1,52 +1,25 @@
 <script lang="ts" setup>
+  import ImageComponent from './ImageComponent.vue';
   const props = defineProps<{
-    aging: {
-      capital: String,
-      age: String,
-    },
     caption: String,
     description: String,
-    scheduleDay: {
-      first: String,
-      second: String,
-    },
-    scheduleAfternoon: {
-      first: String,
-      second: String,
-    },
-    scheduleDescription: {
-      firstTitle: String,
-      secondTitle: String
-    }
+    imageFile: String,
+    imageType: String
   }>();
 </script>
 
 <template>
-  <div class="relative p-5 shadow-md text-center ml-10 mb-10 rounded w-96 bg-white">
-
-    <div
-      class="border border-orange-600 justify-center flex shadow-md mx-auto absolute top-[-40px] left-[0px] rounded-full bg-orange-600 w-20 h-20 items-center align-center text-xl text-white">
-      <div class="wrapper">
-        <div class="text-lg">{{ aging.capital }}</div>
-        <div class="text-center">{{ aging.age }}</div>
+  <div class="relative p-5 shadow-md text-center ml-10 mb-10 rounded-3xl w-96 bg-white justify-center align-center flex flex-wrap">
+      
+    <div class="wrapper mt-2 h-64 hue-rotate-90">
+        <ImageComponent :image-size="'200'" :imageQuality="100" :image-name="imageFile" :image-type="imageType"/>
       </div>
-    </div>
+      
+      <div style="font-family: 'Caveat', 'serif';" class="text-3xl text-orange-600"> {{ caption }} </div>
+      
+      <div class="text-xl mt-5 text-center"> {{description}}</div>
 
-    <div style="font-family: 'Caveat', 'serif';" class="text-3xl text-orange-600"> {{ caption }} </div>
-
-    <div class="text-xl text-left"> {{description}}</div>
-
-    <div class="mt-2 text-xl text-left flex flex-wrap justify-center">
-      <div class="mb-2">{{scheduleDay.first}} ☀️</div>
-      <div class="mb-2 ml-2">{{scheduleAfternoon.first}} 🌙</div>
-      <p class="text-center text-sm ">{{scheduleDescription.firstTitle}}</p>
-    </div>
-
-    <div class="mt-2 text-xl text-left flex flex-wrap justify-center">
-      <div class="mb-2">{{scheduleDay.first}} ☀️</div>
-      <div class="mb-2 ml-2">{{scheduleAfternoon.first}} 🌙</div>
-      <p class="text-center text-sm ">{{scheduleDescription.firstTitle}}</p>
-    </div>
+      <UButton color="amber" variant="outline" class="mt-5"> Подробнее </UButton>
   </div>
 </template>
 
