@@ -1,5 +1,6 @@
 <script lang="ts" setup>
     import navLinkComponent from '../layout/nav-link.vue';
+    const route = useRoute();
 </script>
 
 <template>
