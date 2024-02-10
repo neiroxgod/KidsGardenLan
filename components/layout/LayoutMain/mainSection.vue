@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <section class="min-h-[60vh] bg-white  pt-32">
+    <section class="min-h-[60vh] bg-white pt-16">
         <div class="container lg mx-auto bg-white p-10 flex">
             <div class="content">
                 <div>
