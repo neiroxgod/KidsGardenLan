@@ -8,10 +8,10 @@
 </script>
 
 <template>
-  <section class="w-full bg-orange-100 pt-16">
-    <div class="container p-10 content-center">
+  <section class="w-full bg-orange-100">
+    <div class="container content-center p-10">
       <h1 style="font-family: 'Caveat', serif;" class="text-center text-6xl text-orange-600">{{ props.title }}</h1>
-      <paragraph class="text-xl pt-1" :text="subtitle"></paragraph>
+      <p class="text-xl pt-8">{{ props.subtitle }}</p>
     </div>
   </section>
 </template>

@@ -1,5 +1,9 @@
-<script lang="ts" setup> 
-    const route = useRoute();
+<script lang="ts" setup>
+  useHead({
+    title: "Kid's Garden"
+  })
+
+  const route = useRoute();
 </script>
 
 <template>
