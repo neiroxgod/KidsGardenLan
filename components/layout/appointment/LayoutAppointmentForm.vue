@@ -10,13 +10,13 @@
         <p class="font-header text-slate-500 text-3xl">на пробное занятие</p>
       </div>
       <div class="w-3/5">
-        <UForm>
-          <UInput placeholder="Email" icon="i-heroicons-envelope" />
-          <UInput placeholder="Номер телефона" icon="i-heroicons-phone" />
-          <UInput placeholder="Ваше имя" icon="i-heroicons-user" />
-          <UInput placeholder="Возраст ребёнка" icon="i-heroicons-calendar" />
-          <UInput placeholder="Группа" icon="i-heroicons-calendar" />
-          <USelect placeholder="Выберите группу" icon="i-heroicons-user-group" :options="groups" />
+        <UForm class="text-center">
+          <UInput placeholder="Email" icon="i-heroicons-envelope" class="mb-0.5" />
+          <UInput placeholder="Номер телефона" icon="i-heroicons-phone" class="mb-0.5" />
+          <UInput placeholder="Ваше имя" icon="i-heroicons-user" class="mb-0.5" />
+          <UInput placeholder="Возраст ребёнка" icon="i-heroicons-calendar" class="mb-0.5" />
+          <USelect placeholder="Выберите группу" icon="i-heroicons-user-group" class="mb-0.5" :options="groups" />
+          <UButton color="amber">Отправить</UButton>
         </UForm>
       </div>
     </div>
