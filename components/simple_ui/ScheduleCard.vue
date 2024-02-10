@@ -32,20 +32,20 @@
       </div>
     </div>
 
-    <div style="font-family: 'Caveat', 'serif';" class="text-3xl text-orange-600"> {{ caption }} </div>
+    <div class="font-header text-3xl text-orange-600">{{ caption }}</div>
 
-    <div class="text-xl text-left"> {{description}}</div>
+    <div class="text-xl text-left"> {{ description }}</div>
 
     <div class="mt-2 text-xl text-left flex flex-wrap justify-center">
-      <div class="mb-2">{{scheduleDay.first}} ☀️</div>
-      <div class="mb-2 ml-2">{{scheduleAfternoon.first}} 🌙</div>
-      <p class="text-center text-sm ">{{scheduleDescription.firstTitle}}</p>
+      <div class="mb-2">{{ scheduleDay.first }} ☀️</div>
+      <div class="mb-2 ml-2">{{ scheduleAfternoon.first }} 🌙</div>
+      <p class="text-center text-sm ">{{ scheduleDescription.firstTitle }}</p>
     </div>
 
     <div class="mt-2 text-xl text-left flex flex-wrap justify-center">
-      <div class="mb-2">{{scheduleDay.first}} ☀️</div>
-      <div class="mb-2 ml-2">{{scheduleAfternoon.first}} 🌙</div>
-      <p class="text-center text-sm ">{{scheduleDescription.firstTitle}}</p>
+      <div class="mb-2">{{ scheduleDay.first }} ☀️</div>
+      <div class="mb-2 ml-2">{{ scheduleAfternoon.first }} 🌙</div>
+      <p class="text-center text-sm ">{{ scheduleDescription.firstTitle }}</p>
     </div>
   </div>
 </template>

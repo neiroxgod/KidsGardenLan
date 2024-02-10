@@ -5,7 +5,7 @@
 <template>
     <section class="z-20 fixed w-full bg-opacity-60 shadow-sm bg-orange-50 text-slate-950 lg flex items-center justify-between h-16">
         <div>
-            <div style="font-family: 'Pacifico', sans-serif;" class="ml-2 text-lg text-orange-300">Kids Garden</div>
+            <div class="font-display ml-2 text-lg text-orange-300">Kids Garden</div>
         </div>
         
         <div class="flex md justify-evenly">
@@ -17,7 +17,7 @@
         </div>
 
         <div> 
-            <button style="font-family: 'Caveat', serif;" class="hover:shadow-lg shadow-md  hover:bg-white hover:text-slate-600 hover:border-slate-600 hover:text-orange-500 duration-300 text-center text-white text-lg bg-orange-400 mr-5 rounded-3xl border border-orange-400 p-2">Записаться на пробное</button>
+            <button class="hover:shadow-lg shadow-md hover:bg-white hover:text-slate-600 hover:border-slate-600 hover:text-orange-500 duration-300 font-header text-center text-white text-lg bg-orange-400 mr-5 rounded-3xl border border-orange-400 p-2">Записаться на пробное</button>
         </div>
     </section>
 </template>

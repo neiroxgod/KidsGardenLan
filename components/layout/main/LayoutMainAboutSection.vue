@@ -8,7 +8,7 @@ import ScheduleCard from '../../simple_ui/ScheduleCard.vue';
             <div class="container md p-6 rounded">
                 <div class="flex justify-between">
                     <div class="w-full">
-                        <h2 style="font-family: 'Caveat', 'serif';" class="text-center text-orange-600 text-6xl">Выберите
+                        <h2 class="text-center text-orange-600 text-6xl">Выберите
                             свое время</h2>
                         <div class="mt-10 flex items-center align-center justify-center flex-wrap">
                             <ScheduleCard 
