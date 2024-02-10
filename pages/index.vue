@@ -5,10 +5,10 @@
 </script>
 
 <template>
-    <LayoutMainSection/>
-    <LayoutMainAboutSection/>
-    <LayoutMainMethodologySection/>
-    <LayoutMainPhotographicSection/>
+  <LayoutMainSection />
+  <LayoutMainAboutSection />
+  <LayoutMainMethodologySection />
+  <LayoutMainPhotographicSection />
 </template>
 
 <style scoped> 

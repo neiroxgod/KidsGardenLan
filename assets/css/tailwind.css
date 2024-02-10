@@ -74,13 +74,17 @@
   }
   
   body {
-    transition: .3;
+    transition: .3s;
     font-family: 'Arsenal', sans-serif;
     @apply bg-background text-foreground;
   }
 
   h1 {
-    font-family: 'Noto Sans Japanese', sans-serif;
+    font-family: 'Pacifico', sans-serif;
+  }
+
+  h2, h3 {
+    font-family: 'Caveat', sans-serif;
   }
 
   .router-link-active {
